@@ -5,8 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+        #my-picture{
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+        }
+      
+        #button{
+            background-color: #db1515; 
+            border-radius: 30px;
+            color: white;
+            padding: 20px ;
+            text-align: center;
+            position: absolute;
+            font-size: 16pt;
+            display: inline-block;
+          
+            
+        
+        }
+        #save-button{
+            position: absolute;
+            left: 350px;
+            top: 60px;
+            bottom: 0;
+            right: 0;
+            transform: translateX(0px);
+            
+        }
+        #one{
+            background-color: white; 
+            border-radius: 30px;
+            color: rgb(28, 16, 16);
+            padding: 5px ;
+            text-align: center;
+            font-size: 16pt;
+            display: inline-block;
+            padding-left: 25px;
+            padding-right: 45px;
+            position: relative;
+            bottom: 110px;
+            left: 30px;
+            transform: translateX(0px);
+            
+        }
+        #two{
+            background-color: white; 
+            border-radius: 30px;
+            color: rgb(28, 16, 16);
+            padding: 5px ;
+            text-align: center;
+            font-size: 16pt;
+            display: inline-block;
+           position: relative;
+           bottom: 150px;
+           left: 350px;
+           transform: translateX(0px);
+           
+        }
+
+        #three{
+            background-color: white; 
+            border-radius: 30px;
+            color: rgb(28, 16, 16);
+            padding: 5px ;
+            text-align: center;
+            font-size: 16pt;
+            display: inline-block;
+            position: relative;
+            bottom: 188px;
+           left: 220px;
+           transform: translateX(0px);    
+        }
+        #my-picture:hover #one {
+            transform: translateX(600px);
+        }
+        #my-picture:hover #two {
+            transform: translateX(600px);
+        }
+        #my-picture:hover #three {
+            transform: translateX(600px);
+        }#my-picture:hover #button {
+            transform: translateX(600px);
+        }
+    </style>
+
+
+
+
 </head>
+
+
+
+
+
 <body>
-    
+    <div id="my-picture">
+        <img src="825716941387441.png">
+        <div id="save-button">
+            <button id="button">SAVE</button>
+        </div>   
+        <div id="first">
+            <button id="one">Some text</button>
+        </div>   
+        <div id="second">
+            <button id="two">Some text</button>
+        
+        </div>   
+        <div id="third">
+            <button id="three">Some text</button>
+        
+        </div>   
+    </div>   
 </body>
 </html>

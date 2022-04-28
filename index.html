@@ -8,10 +8,18 @@
 
 
     <style>
+
+        body{
+            max-width:100%;
+            max-height:100%;
+        }
         #my-picture{
             position: relative;
             display: inline-block;
             overflow: hidden;
+            height: 100%;
+            
+       
         }
       
         #button{
@@ -45,10 +53,10 @@
             text-align: center;
             font-size: 16pt;
             display: inline-block;
-            padding-left: 25px;
-            padding-right: 45px;
+            padding-left: 85px;
+            padding-right: 65px;
             position: relative;
-            bottom: 110px;
+            bottom: 107px;
             left: 30px;
             transform: translateX(600px);
             
@@ -65,6 +73,8 @@
            bottom: 150px;
            left: 350px;
            transform: translateX(600px);
+           padding-left: 55px;
+            padding-right: 45px;
            
         }
 
@@ -77,21 +87,31 @@
             font-size: 16pt;
             display: inline-block;
             position: relative;
-            bottom: 188px;
+            bottom: 193px;
            left: 220px;
-           transform: translateX(600px);    
+           transform: translateX(600px);   
+           padding-left: 55px;
+            padding-right: 45px; 
         }
         #my-picture:hover #one {
             transform: translateX(0px);
         }
         #my-picture:hover #two {
             transform: translateX(0px);
+            
         }
         #my-picture:hover #three {
             transform: translateX(0px);
         }#my-picture:hover #button {
             transform: translateX(0px);
+            
         }
+     
+        #my-picture:hover{
+            filter: brightness(92%);
+        }
+
+       
     </style>
 
 
@@ -110,14 +130,14 @@
             <button id="button">SAVE</button>
         </div>   
         <div id="first">
-            <button id="one">Some icon</button>
+            <button id="one">&#9730;</button>
         </div>   
         <div id="second">
-            <button id="two">Some icon</button>
+            <button id="two">&#9729;</button>
         
         </div>   
         <div id="third">
-            <button id="three">Some icon</button>
+            <button id="three">&#9728;</button>
         
         </div>   
     </div>   
